@@ -1,0 +1,34 @@
+.wrapper {
+    background-color: #e6007a;
+    height: 100%;
+    color: #fff;
+    padding: 0 156px 0 156px;
+}
+
+.content {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 40px;
+    width: 400px;
+    padding-right: 100px;
+}
+.content p {
+    font-size: 22px;
+    width: 550px;
+    letter-spacing: 0.05rem;
+
+}
+.image img {
+    width: auto;
+    height: 5rem;
+    padding: 0 90px 0 90px;
+}
+.image {
+    padding-top: 50px;
+    padding-bottom: 70px ;
+}
+

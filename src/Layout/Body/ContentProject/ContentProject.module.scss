@@ -1,0 +1,98 @@
+.wrapper {
+    margin-top: 100px;
+    color: #fff;
+    background: #172026 !important;
+    height: 1050px;
+}
+.content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    width: 356px;
+    text-align: center;
+    padding: 20px;
+}
+
+.header p {
+    padding-top: 70px;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-weight: 50;
+    width: 420px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.content img {
+    width: 200px;
+}
+
+.content p {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.content h1 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.bottom {
+text-align: center;
+  padding-top: 20px;
+}
+
+.bottom button {
+    border-radius: 2rem;
+    border: 1px solid #e6007a;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    padding: 16px 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+
+.bottom button::before {
+    position: absolute;
+    content: "";
+    background-color: #e6007a;
+    border: 1px solid #e6007a;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    opacity: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -999;
+}
+
+.bottom button:hover::before {
+    opacity: 1;
+    transition: .3s;
+    width: 100%;
+}
+
+.bottom h1 {
+    font-size: 36px;
+    font-weight: 400;
+}

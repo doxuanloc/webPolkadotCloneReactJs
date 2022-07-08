@@ -39,9 +39,9 @@ function HeaderMenu({ showHeaderMenu }) {
           </button>
         </div>
         <div className={styles["header-language"]}>
+          <OutsideClickHandler onOutsideClick={handleClickOutSite} />
           {showMenu && <MenuModule />}
         </div>
-        <OutsideClickHandler onOutsideClick={handleClickOutSite} />
         <div className={styles["sidebar-header"]}>
           <a href="https://polkadot.network/Polkadot-lightpaper.pdf">
             Lightpaper

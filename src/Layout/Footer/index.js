@@ -8,6 +8,7 @@ import {
   faTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import Button from "../../Components/Button";
 function Footer() {
   const navigate = useNavigate();
 
@@ -66,7 +67,7 @@ function Footer() {
               Subscribe to the newsletter to hear about Polkadot updates and
               events.
             </h1>
-            <button>Subscribe</button>
+            <Button customClassName={styles["button-img"]}>Subscribe</Button>
           </div>
         </div>
       </div>

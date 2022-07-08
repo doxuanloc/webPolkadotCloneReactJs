@@ -3,7 +3,7 @@
     height: 400px;
     background: #172026 !important;
     color: #fff;
-    padding: 60px 156px 60px 156px;
+    padding: 60px 130px 60px 130px;
     display: flex;
     flex: 1;
     font-size: 24px;
@@ -31,9 +31,10 @@ button {
     min-width: 150px;
 }
 
-button:hover {
+.title button:hover {
     color: rgb(255, 255, 255);
 }
+
 .technology {
     padding-right: 180px;
     display: flex;
@@ -41,11 +42,23 @@ button:hover {
     align-items: flex-start;
 }
 
+.technology :hover {
+    color: #fff;
+}
+
+.general :hover {
+    color: #fff;
+}
+
 .community {
     padding-right: 150px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.community :hover {
+    color: #fff;
 }
 
 
@@ -71,49 +84,17 @@ button:hover {
     letter-spacing: 0.4px;
 }
 
-.subscribe button {
-    margin-right: 14px;
-    border-radius: 2rem;
-    border: 1px solid #e6007a;
-    background-color: transparent;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 700;
-    padding: 10px 20px;
-    cursor: pointer;
+.button-img {
+    margin-top: 20px;
+    width: 160px;
+    color:rgb(255, 255, 255);
     position: relative;
-    width: 120px;
-    margin-top: 26px;
     z-index: 1;
-}
-
-
-.subscribe button::before {
-    position: absolute;
-    content: "";
-    background-color: #e6007a;
-    border: 1px solid #e6007a;
-    border-radius: 2rem;
-    box-sizing: border-box;
-    opacity: 0;
-    width: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-}
-
-
-.subscribe button:hover::before {
-    opacity: 1;
-    transition: .2s;
-    width: 100%;
-    transform: X(-100%);
 }
 
 .bottom-footer img {
    width: 140px;
-   padding: 0 0 50px 156px
+   padding: 0 0 50px 130px
 }
 .bottom-footer {
     display: flex;

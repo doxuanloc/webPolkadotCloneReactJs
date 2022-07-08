@@ -1,3 +1,4 @@
+import Button from "../../../Components/Button";
 import styles from "./Intro.module.scss";
 
 function Intro() {
@@ -12,8 +13,8 @@ function Intro() {
           interoperable decentralized web.
         </p>
         <div className={styles.btn}>
-          <button>Learn parachains</button>
-          <button>Start building</button>
+          <Button url="/parachains">Learn parachains</Button>
+          <Button>Start building</Button>
         </div>
       </div>
       <div className={styles.img}>

@@ -1,4 +1,5 @@
-import styles from "./ContentProject.module.scss";
+import Button from "../../../Components/Button";
+import styles from "./index.module.scss";
 
 const DETAIL_CONTENT = [
   {
@@ -24,6 +25,8 @@ const DETAIL_CONTENT = [
   },
 ];
 
+console.log(styles["button-black"]);
+
 function Content() {
   return (
     <div className={styles.wrapper}>
@@ -45,7 +48,9 @@ function Content() {
       </div>
       <div className={styles.bottom}>
         <h1>Learn more about the DOT token</h1>
-        <button>Discover DOT</button>
+        <Button url="/dot-token" customClassName={styles["button-black"]}>
+          Discover DOT
+        </Button>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import styles from "./DetailProject.module.scss";
-import { useNavigate } from "react-router-dom";
+import Button from "../../../Components/Button";
 
-function Detail() {
+function Detail({ onClick }) {
   const DETAIL_PROJECT = [
     {
       id: 1,
@@ -46,11 +46,6 @@ function Detail() {
         "Polkadot has a sophisticated governance system where all stakeholders have a voice. Network upgrades are coordinated on-chain and enacted autonomously and without forking the network, ensuring that Polkadot’s development remains future-proof and community-driven.",
     },
   ];
-  const navigate = useNavigate();
-
-  const handleRouteChange = (url) => {
-    navigate(url);
-  };
 
   return (
     <div className={styles.wrapper}>
@@ -63,9 +58,7 @@ function Detail() {
       ))}
       <div className={styles.bottom}>
         <p>Learn more about Polkadot's technology</p>
-        <button onClick={() => handleRouteChange("/technology")}>
-          Discover Polkadot
-        </button>
+        <Button url="/technology">Discover Polkadot</Button>
       </div>
     </div>
   );

@@ -33,43 +33,6 @@
     align-items: center;
 }
 
-.bottom button {
-    border-radius: 2rem;
-    border: 1px solid #e6007a;
-    background-color: transparent;
-    font-size: 18px;
-    color: #e6007a;
-    font-weight: 700;
-    padding: 16px 20px;
-    cursor: pointer;
-    position: relative;
-}
-
-
-.bottom button::before {
-    position: absolute;
-    content: "";
-    background-color: #e6007a;
-    border: 1px solid #e6007a;
-    border-radius: 2rem;
-    box-sizing: border-box;
-    opacity: 0;
-    width: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    z-index: -1;
-}
-
-.bottom button:hover {
-    color: #fff;
-}
-
-.bottom button:hover::before {
-    opacity: 1;
-    transition: .3s;
-    width: 100%;
-}
 
 .bottom p {
     font-size: 36px;

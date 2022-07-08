@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Build from "./pages/Build";
 import Blog from "./pages/Blog";
+import Parachains from "./pages/Parachains";
+import DotToken from "./pages/DotToken";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/build" element={<Build />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/parachains" element={<Parachains />} />
+          <Route path="/dot-token" element={<DotToken />} />
         </Routes>
       </div>
     </Router>

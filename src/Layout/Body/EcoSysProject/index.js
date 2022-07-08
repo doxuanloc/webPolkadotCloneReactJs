@@ -1,6 +1,7 @@
-import CardProject from "../../../Components/CardProject";
+import CardProject from "../../../Components/Modal/ModalCardProject";
 import styles from "./EcoSysProject.module.scss";
 import { useNavigate } from "react-router-dom";
+import Button from "../../../Components/Button";
 function EcoSys() {
   const navigate = useNavigate();
 
@@ -15,12 +16,12 @@ function EcoSys() {
       <CardProject />
       <div className={styles.footer}>
         <h1>Want to get involved?</h1>
-        <button>join the Community</button>
+        <Button url="/community">join the Community</Button>
         <h3>
           or learn about how to{" "}
           <span
             className={styles.text}
-            onClick={() => handleRouteChange("/about")}
+            onClick={() => handleRouteChange("/build")}
           >
             build on Polkadot.
           </span>

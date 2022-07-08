@@ -5,14 +5,12 @@
     position: absolute;
     top: 55px;
     left: 10px;
-    z-index: 1000;
     float: left;
     min-width: 10rem;
     margin: 0;
     font-size: 1rem;
     color: transparent;
     border: none;
-    text-align: left;
     list-style: none;
     background-clip: padding-box;
     border: 1px solid #e9ecef;
@@ -33,6 +31,7 @@
     font-family: "Work Sans", sans-serif !important;
     letter-spacing: -0.008rem;
     color: #111;
+    z-index: 99;
     
 }
 

@@ -1,0 +1,49 @@
+.wrapper {
+    margin-left: 25px;
+    padding: 1rem 1.5rem;
+    font-family: "Work Sans", sans-serif !important;
+    letter-spacing: 0.02rem;
+    width: 330px;
+    height: 48px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+    background-color: #fff !important;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+    box-shadow: 0 1rem 3rem rgba(52, 58, 64,  1.8%) !important;
+    cursor: pointer;
+    :hover {
+        padding-top:-100px;
+        
+    }
+}
+
+
+.wrapper img {
+    margin-right: 10px;
+    height: 3rem;
+}
+
+.content {
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 100;
+}

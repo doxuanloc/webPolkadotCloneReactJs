@@ -4,7 +4,6 @@
 }
 .wrapper {
     margin-top: 20px;
-    padding: 0 134px 0 134px;
     display: flex;
     h2 {
         font-weight: 700;
@@ -15,7 +14,10 @@
         font-size: 25px;
     }
 }
-
+.container {
+    padding: 0 136px 0 136px;
+    display: flex;
+}
 .img img {
     padding-top: 50px;
     width: 470px;

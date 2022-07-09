@@ -3,10 +3,10 @@ import Header from "../../Layout/Header";
 
 function About() {
   return (
-    <div>
+    <>
       <Header />
       <Footer />
-    </div>
+    </>
   );
 }
 

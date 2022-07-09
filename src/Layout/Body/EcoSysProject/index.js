@@ -16,7 +16,7 @@ function EcoSys() {
       <CardProject />
       <div className={styles.footer}>
         <h1>Want to get involved?</h1>
-        <Button url="/community">join the Community</Button>
+        <Button url="/community">Join the Community</Button>
         <h3>
           or learn about how to{" "}
           <span

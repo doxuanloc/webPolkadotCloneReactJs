@@ -1,7 +1,7 @@
 import styles from "./Tag.module.scss";
-function Tag({ children, img }) {
+function TagSocial({ children, img }) {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles["wrapper-tag"]}>
       <img src={img} alt={img} />
       <div className={styles.content}>
         <p>{children}</p>
@@ -10,4 +10,4 @@ function Tag({ children, img }) {
   );
 }
 
-export default Tag;
+export default TagSocial;

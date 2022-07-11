@@ -1,4 +1,4 @@
-import Tag from "../../../Components/Tag";
+import TagSocial from "../../../Components/TagSocial";
 import styles from "./HeaderContent.module.scss";
 
 function HeaderContent() {
@@ -11,18 +11,18 @@ function HeaderContent() {
       </div>
       <div className={styles.content}>
         <div className={styles.tag}>
-          <Tag img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
+          <TagSocial img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
             <p>GitHub</p>
             <h1>Latest version & history.</h1>
-          </Tag>
-          <Tag img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
+          </TagSocial>
+          <TagSocial img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
             <p>GitHub</p>
             <h1>Latest version & history.</h1>
-          </Tag>
-          <Tag img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
+          </TagSocial>
+          <TagSocial img="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=96b0dfa78e">
             <p>GitHub</p>
             <h1>Latest version & history.</h1>
-          </Tag>
+          </TagSocial>
         </div>
         <div className={styles.text}>
           <h1>Any type of data across any type of blockchain</h1>
